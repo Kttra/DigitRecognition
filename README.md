@@ -9,7 +9,7 @@ data is a collection of images that we use to fit our model. In otherwords it is
 compare with another set. The test data is used to determine the performance of the model. In
 addition, test data is unknown while the training data is known
 
-![figure1](https://user-images.githubusercontent.com/100814612/159613923-898ab043-676e-4264-9a4c-a571dfe2cfcc.png)
+<img src="https://user-images.githubusercontent.com/100814612/159613923-898ab043-676e-4264-9a4c-a571dfe2cfcc.png" width="450" height="338"/><img><img>
 
 **10 Mean Digit Images**
 ------------------------
@@ -19,10 +19,10 @@ to the digits 0, 1, ..., 9. Then the sum of the rows are calculated and divided 
 matrix or pool. In the end, we get the mean digits. We are calculating the average of each digit
 class.
 
-![figure2](https://user-images.githubusercontent.com/100814612/159613973-a0602cd8-6f85-4db2-9d00-e382a75389fc.png)
+<img src="https://user-images.githubusercontent.com/100814612/159613973-a0602cd8-6f85-4db2-9d00-e382a75389fc.png" width="450" height="338"/><img><img>
 
 **Simple Classification Algorithm**
--------------------------
+----------------------------
 The test confusion matrix ends up not being as accurate compared to the SVD algorithm. The theory behind the algorithm is that we compute the distance to known digits and compare.
 The Euclidean distance is the most commonly used one. In the end, we have the digit 2 being
 the most easily identified compared to the other digits. The digit 8 is the hardest to identify.
@@ -30,10 +30,12 @@ Since the simple classification algorithm computes the distance from each unknow
 The 8 digit seems to have been mistaken as a 2, 5, and 0 quite often whereas the 2 digit was
 only classified wrong in only a handful of cases. Overall, the simple classification algorithm
 has a classification rate about 84.66%.
-![table 1](https://user-images.githubusercontent.com/100814612/159615145-c48dfbc0-d41c-483c-a7c0-9e438588813b.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100814612/159615919-01e227e8-3e7e-49d9-9107-371842f3fd37.png">
+</p>
 
 **SVD Classification Algorithm**
--------------------------
+-----------------------------
 The SVD17 confusion matrix is more accurate at identifying the digits than the
 simple classification algorithm. Similar to above, we have the digit 2 being the most easily identified. However, the digit 1 is
 the hardest to identify in the SVD algorithm. It seems this is the case because the digit 1 is
@@ -47,23 +49,12 @@ in each of the digits by using orthogonal basis vectors. It is based off of the 
 algorithm. The start of the algorithm begins with pooling the training digits. Then we compute
 the SVD for each digit class. Followed by computing the error between each original test digit
 image and its approximation. And finally seeing the results by computing the confusion matrix.
-
-
-| Digit  | Accuracy |
-| ------------- | ------------- |
-| 0  | 97.97%  |
-| 1  | 94.58%  |
-| 2  | identified  |
-| 3  | identified  |
-| 4  | identified  |
-| 5  | identified  |
-| 6  | identified  |
-| 7  | identified  |
-| 8  | identified  |
-| 9  | identified  |
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100814612/159615692-3c49ef8e-e2a8-4ea1-beee-e54689841e4b.png">
+</p>
 
 **Summary**
--------------------------
+----------------------------
 The first figure displays the first 16 images from the array training digits. The second
 figure displays the 10 mean digit images in training digits. The resulting test confusion matrix
 illustrates that the simple classification algorithm does not perform as well as the SVD classification algorithm. In both algorithms, they identified the digit 2 the most correctly. In the simple
