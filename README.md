@@ -9,7 +9,7 @@ data is a collection of images that we use to fit our model. In otherwords it is
 compare with another set. The test data is used to determine the performance of the model. In
 addition, test data is unknown while the training data is known
 
-<img src="https://user-images.githubusercontent.com/100814612/159613923-898ab043-676e-4264-9a4c-a571dfe2cfcc.png" width="450" height="338"/><img><img>
+<img src="https://user-images.githubusercontent.com/100814612/159613923-898ab043-676e-4264-9a4c-a571dfe2cfcc.png" width="400" height="300"/><img><img>
 
 **10 Mean Digit Images**
 ------------------------
@@ -19,7 +19,7 @@ to the digits 0, 1, ..., 9. Then the sum of the rows are calculated and divided 
 matrix or pool. In the end, we get the mean digits. We are calculating the average of each digit
 class.
 
-<img src="https://user-images.githubusercontent.com/100814612/159613973-a0602cd8-6f85-4db2-9d00-e382a75389fc.png" width="450" height="338"/><img><img>
+<img src="https://user-images.githubusercontent.com/100814612/159613973-a0602cd8-6f85-4db2-9d00-e382a75389fc.png" width="400" height="300"/><img><img>
 
 **Simple Classification Algorithm**
 ----------------------------
