@@ -8,8 +8,9 @@ vectors or matrices. They both contain numeric entries and can be 2-dimensional.
 data is a collection of images that we use to fit our model. In otherwords it is used to fit and
 compare with another set. The test data is used to determine the performance of the model. In
 addition, test data is unknown while the training data is known
-
+<p align="center">
 <img src="https://user-images.githubusercontent.com/100814612/159613923-898ab043-676e-4264-9a4c-a571dfe2cfcc.png" width="400" height="300"/><img><img>
+</p>
 
 **10 Mean Digit Images**
 ------------------------
@@ -18,8 +19,9 @@ is done by first creating a matrix that contains all the images in training digi
 to the digits 0, 1, ..., 9. Then the sum of the rows are calculated and divided by the size of the
 matrix or pool. In the end, we get the mean digits. We are calculating the average of each digit
 class.
-
+<p align="center">
 <img src="https://user-images.githubusercontent.com/100814612/159613973-a0602cd8-6f85-4db2-9d00-e382a75389fc.png" width="400" height="300"/><img><img>
+</p>
 
 **Simple Classification Algorithm**
 ----------------------------
