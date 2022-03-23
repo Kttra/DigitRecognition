@@ -66,7 +66,7 @@ classification algorithm, the digit 8 was the most inaccurate one. On the other 
 Overall, the SVD classification
 algorithm showed to be a lot more reliable with a classification rate of over 95% for each digit.
 Whereas the simple classification algorithm had a classification rate ranging from about 74%
-to 91% for each digit. Overall, the simple classification algorithm had a classification rate of
+to 91% for each digit. The simple classification algorithm had a classification rate of
 84.66% while the SVD classification algorithm had a classification rate of 96.62%. The reason
 the SVD classification algorithm had better results is because the simple classification algorithm
 does not take into account the variation within each digit class.
